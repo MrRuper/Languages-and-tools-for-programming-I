@@ -3,5 +3,11 @@ Develop a program to manage a chart of hits where songs are voted on, numbered f
 
 # Full description
 
-You can find full description in [full_description.md]{}.
+You can find full description in [full_description.md]{https://github.com/MrRuper/Languages-and-tools-for-programming-I/blob/main/Simple_ranking_problem_Project1/full_description.md}.
+
+# How to use this program?
+
+# This repository has a lot of different files. What are they?
+
+
 
