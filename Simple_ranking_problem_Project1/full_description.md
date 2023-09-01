@@ -16,7 +16,7 @@ The NEW command finalizes the previous chart ranking (if one was ongoing) and in
 
 - **TOP** <br>
 The **TOP** command prints a summary of all the previous chart rankings to the standard output. The summary is determined by summing up the points obtained in the past rankings. A song that ranked first receives 7 points, the second-ranked song receives 6 points, and so on, down to 1 point for the seventh-ranked song. This command doesn't interrupt the ongoing voting for the current chart ranking.
-```
+
 
 Both commands output at most 7 song numbers for the ranking or summary, providing the song number and the position change compared to the previous ranking or summary. If a song is a newcomer to the list or the summary, it's represented by a '-' (hyphen, minus) symbol.
 
