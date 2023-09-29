@@ -1,10 +1,9 @@
-The C++ standard library provides very useful containers (e.g., unordered_map and unordered_set) that are not present in the C library. Often, there is also a need to integrate C++ code with C code.
+The C++ standard library provides very useful containers (e.g., **unordered_map** and **unordered_set**) that are not present in the C library. Often, there is also a need to integrate C++ code with C code.
 
 Write a C++ module called "hash" that provides hash tables for sequences of uint64_t numbers in the C language. It should consist of a header file "hash.h" declaring the module's interface and a "hash.cc" file containing its implementation. This module should provide the following functions:
 
-````
-unsigned long hash_create(hash_function_t hash_function);
-```
+
+``unsigned long hash_create(hash_function_t hash_function);``
 
 Creates a hash table and returns its identifier. The `hash_function` parameter is a pointer to a hashing function that produces a **uint64_t number** and has parameters ``uint64_t const*`` and ``size_t``.
 
